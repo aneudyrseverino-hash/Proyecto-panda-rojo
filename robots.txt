@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+Sitemap: https://proyecto-panda-rojo-7vo8.vercel.app/sitemap.xml
