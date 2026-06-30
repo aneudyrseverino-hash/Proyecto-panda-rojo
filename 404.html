@@ -6,23 +6,52 @@
     <title>404 - Panda perdido</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <style>
+       * {
+        box-sizing: border-box;
+       }
 
+       body {
+        background-color: rgba(143, 79, 2, 0.747);
+       }
+
+       .tabla-404 {
+        text-align: center;
+        align-items: center;
+        margin-left: 250px;
+        background-color: white;
+        border: solid 2px red;
+        border-radius: 20px;
+        height: 90dvh;
+        width: 40%;
+        padding: 10px;
+       }
+
+       .error-header p{
+        font-size: 8dvh;
+        font-weight: bold;
+       }
+
+       .error-header small {
+        font-size: 10dvh;
+       }
     </style>
 </head>
 <body>
-    <main>
-    <div class="error-header">
-        <i class="fa-solid fa-paw"></i>
-        <small>404</small>
-        <h1>¡Ooopss página no encontrada!</h1>
-    </div>
-    <div class="error-body">
-         <p><i class="fa-solid fa-xmark"></i>Esta página se perdió en el bosque de bambú.</p>
-         <a href=""><i class="fa-solid fa-house"></i>Volver al inicio</a>
-    </div>
-    <div class="error-footer">
-        <p><i class="fa-solid fa-paw"></i><i class="fa-solid fa-paw"></i><i class="fa-solid fa-paw"></i></p>
-        <p>#ProtegeAlPandaRojo</p>
+    <main class="tabla-404">
+    <div class="main-error">
+        <div class="error-header">
+            <p><i class="fa-solid fa-paw"></i></p>
+            <small>404</small>
+            <h1>¡Ooopss página no encontrada!</h1>
+        </div>
+        <div class="error-body">
+            <p><i class="fa-solid fa-xmark"></i>Esta página se perdió en el bosque de bambú.</p>
+            <a href=""><i class="fa-solid fa-house"></i>Volver al inicio</a>
+        </div>
+        <div class="error-footer">
+            <p><i class="fa-solid fa-paw"></i><i class="fa-solid fa-paw"></i><i class="fa-solid fa-paw"></i></p>
+            <p>#ProtegeAlPandaRojo</p>
+        </div>
     </div>
     </main>
 </body>
