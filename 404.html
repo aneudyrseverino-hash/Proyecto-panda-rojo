@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 - Panda perdido</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
     <style>
        * {
         box-sizing: border-box;
@@ -17,28 +24,67 @@
        .tabla-404 {
         text-align: center;
         align-items: center;
-        margin-left: 250px;
+        margin-top: 20px;
+        margin-left: 600px;
         background-color: white;
         border: solid 2px red;
         border-radius: 20px;
         height: 90dvh;
-        width: 40%;
+        width: 30%;
         padding: 10px;
        }
 
-       .error-header p{
+       .error-header p {
+        color: #a80000;
+        margin: 0;
         font-size: 8dvh;
         font-weight: bold;
        }
 
        .error-header small {
         font-size: 10dvh;
+        color: #a80000;
+        margin: 0;
        }
+
+       .error-body p {
+        background-color: aliceblue;
+        padding: 20px;
+        border-radius: 50px;
+        border-left: solid 10px #a80000;
+        margin-top: 30px;
+       }
+
+       .error-body button {
+        margin-top: 10px;
+        padding: 20px;
+        background-color: #a80000;
+        border: 0;
+        border-radius: 10px;
+        color: white;
+       }
+
+       .error-footer {
+        margin-top: 20px;
+        border-top: dotted;
+       }
+
+       .error-footer p{
+          margin: 0;
+          margin-top: 2px;
+          font-size: 2dvh;
+          color: #a80000;
+       }
+
+       .error-footer a{
+        margin: 0;
+       }
+
     </style>
 </head>
 <body>
     <main class="tabla-404">
-    <div class="main-error">
+    <section class="main-error">
         <div class="error-header">
             <p><i class="fa-solid fa-paw"></i></p>
             <small>404</small>
@@ -46,13 +92,13 @@
         </div>
         <div class="error-body">
             <p><i class="fa-solid fa-xmark"></i>Esta página se perdió en el bosque de bambú.</p>
-            <a href=""><i class="fa-solid fa-house"></i>Volver al inicio</a>
+            <button><i class="fa-solid fa-house"></i>Volver al inicio</button>
         </div>
         <div class="error-footer">
             <p><i class="fa-solid fa-paw"></i><i class="fa-solid fa-paw"></i><i class="fa-solid fa-paw"></i></p>
-            <p>#ProtegeAlPandaRojo</p>
+            <a href="#">#ProtegeAlPandaRojo</a>
         </div>
-    </div>
+    </section>
     </main>
 </body>
 </html>
